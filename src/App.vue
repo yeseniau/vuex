@@ -13,6 +13,16 @@
           <router-link :to="{name: 'search'}">Busqueda</router-link>
         </a>
       </li>
+      <li>
+        <a href>
+          <router-link :to="{name: 'sales'}">Ventas</router-link>
+        </a>
+      </li>
+      <li>
+        <a href>
+          <router-link :to="{name: 'total'}">Total</router-link>
+        </a>
+      </li>
     </ul>
 
     <transition name="vista">
